@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="pouple">#27005C</color>
+    <color name="read">#950505</color>
+    <color name="dank_green">#7C7B7B</color>
+</resources>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginTop="20dp"
+    android:layout_marginStart="5dp"
+    android:layout_marginEnd="5dp"
+    android:layout_marginBottom="10dp"
+    android:background="@color/white"
+    >
+
+
+    <TextView
+        android:id="@+id/textNome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cleber "
+        android:textStyle="bold"
+        android:textSize= "22dp"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        />
+    <TextView
+        android:id="@+id/textsobreNome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Geralda da silva "
+        android:textStyle="bold"
+        android:textSize= "22dp"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/textidade"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="48 "
+        android:textSize= "22sp"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        />
+    <TextView
+        android:id="@+id/textcelula"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="5856695689 "
+        android:textSize= "22dp"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="end"
+        >
+
+        <ImageView
+            android:id="@+id/btAtualiza"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/baseline_atualizar_24"
+            android:layout_marginEnd="20dp"
+            />
+
+        <ImageView
+            android:id="@+id/btDeletar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/baseline_delete_24"
+            android:layout_marginEnd="20dp"
+
+            />
+
+
+    </LinearLayout>
+
+</LinearLayout>
